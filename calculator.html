@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title> 
+    <style>  
+      #main{
+        width: 400px; 
+        height:500px; 
+        border:0px solid green;  
+        margin:auto;
+        padding-top:90px;  
+        padding-left:10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+      } 
+      #display{
+        width:320px; 
+        height:90px; 
+        border:0px solid green; 
+        margin:auto;  
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+      } 
+      .row{
+        display:flex; 
+        padding-left:30px;
+      } 
+      .element{
+        width:70px; 
+        height:auto;  
+        
+        border:0px solid green;  
+        text-align: center; 
+       
+        margin-left:10px ;
+        margin-top: 10px; 
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+      } 
+      .row div{
+         border-bottom-left-radius:10px; 
+         border-bottom-right-radius:10px; 
+         border-top-right-radius: 10px; 
+         border-top-left-radius: 10px;  
+         
+      } 
+      #main div{
+        border-radius: 10px; 
+      } 
+      .row .symbols{
+        background-color: black; 
+        color:white;
+      } 
+      .row>.special{
+        background-color: red; 
+        color:white;
+      }
+    </style>
+</head>
+<body>
+    <div id="main"> 
+        <div id="display"></div>  
+        <div class="row"> 
+            <div class="element"><h2>1</h2></div> 
+            <div class="element"><h2>2</h2></div>
+            <div class="element"><h2>3</h2></div>
+            <div class="element symbols"><h2>+</h2></div>
+        </div> 
+        <div class="row"> 
+            <div class="element"><h2>4</h2></div> 
+            <div class="element"><h2>5</h2></div>
+            <div class="element"><h2>6</h2></div>
+            <div class="element symbols"><h2>-</h2></div>
+        </div>
+        <div class="row"> 
+            <div class="element"><h2>7</h2></div> 
+            <div class="element"><h2>8</h2></div>
+            <div class="element"><h2>9</h2></div>
+            <div class="element symbols"><h2>*</h2></div>
+        </div>
+        <div class="row"> 
+            <div class="element special"><h2>C</h2></div> 
+            <div class="element"><h2>0</h2></div>
+            <div class="element symbols"><h2>=</h2></div>
+            <div class="element symbols"><h2>/</h2></div>
+        </div>
+        
+    </div>
+</body>
+</html>

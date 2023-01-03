@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <script  src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"> 
+    </script>
+    <style>  
+     body{
+        background-color: #01bdd5;
+     }
+     #main{
+        display:grid; 
+        grid-template-columns:repeat(12,1fr); 
+        grid-template-rows: repeat(5,50px) ; 
+        gap:20px;  
+        margin:auto; 
+        margin-top:50px;
+        width:80%;  
+        border:0px solid red;
+        background-color: #262c2c;  
+        border-radius: 20px;
+        padding:40px; 
+    } 
+    #main>div{
+        background-color: #2e3630; 
+        text-transform:uppercase; 
+        font-family: sans-serif; 
+        display: flex; 
+        justify-content: center; 
+        align-items:center;  
+        color:#01bdd5; 
+        border-radius: 5px; 
+
+    } 
+    #main>div:hover{
+        background-color:#01bdd5; 
+        font-size: 15px; 
+        color:black; 
+        cursor:pointer; 
+        font-weight: bold;
+    } 
+    #enter{
+       grid-column:11/span 2;
+    } 
+    #rightShift{
+        grid-column:11/span 2;
+    } 
+    #spaceBar{
+        grid-column:5/span 4;
+    }
+    </style>
+     
+</head>
+<body>
+    <div id="main"> 
+        <div>~</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>Delete</div>
+        <div>Tab</div>
+        <div>Q</div>
+        <div>W</div>
+        <div>E</div>
+        <div>R</div>
+        <div>T</div>
+        <div>Y</div>
+        <div>U</div>
+        <div>I</div>
+        <div>O</div>
+        <div>P</div>
+        <div>/</div>
+        <div>CAPS</div>
+        <div>A</div>
+        <div>S</div>
+        <div>D</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>J</div>
+        <div>K</div>
+        <div>L</div>
+        <div id="enter">ENTER</div>
+        <div>SHIFT</div>
+        <div>Z</div>
+        <div>X</div>
+        <div>C</div>
+        <div>V</div>
+        <div>B</div>
+        <div>N</div>
+        <div>M</div> 
+        <div><</div> 
+        <div>></div>
+        <div id="rightShift">SHIFT</div>
+        <div> 
+            <i class="fa-solid fa-globe"></i>
+        </div>
+        <div>CONTROL</div>
+        <div>OPTION</div>
+        <div>ALT</div>
+        <div id="spaceBar">SPACE</div>
+        <div>ALT</div>
+        <div>OPTION</div>
+        <div> 
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div> 
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</body>
+</html>

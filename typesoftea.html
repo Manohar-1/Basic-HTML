@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of tea</title> 
+    <style>  
+    *{
+        font-family: sans-serif; 
+    } 
+    body{
+      background-color: bisque;
+    }
+      #main{ 
+        width:100%; 
+        height:1100px; 
+        border:0px solid green;
+        
+        display:grid; 
+        grid-template-rows:repeat(3,180px); 
+        grid-template-columns: repeat(3,1fr);  
+        justify-content: space-evenly; 
+        align-content: space-evenly;
+        gap:40px; 
+        margin:auto;
+      } 
+      #main>div{
+        border:0px solid red; 
+        border-radius:5px;  
+        background-color: white; 
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      } 
+      #main>div>div{
+        width:100%; 
+        height:40px; 
+        margin-top:30px; 
+        margin-bottom: 30px; 
+        border:0px solid green; 
+        display:flex; 
+        justify-content: space-between;
+      }  
+      #main>div>div>div{
+        margin:10px;
+      }
+      #main>div>p{
+        text-align: left;
+        margin-left: 5px; 
+        color:grey;
+      } 
+      #price{
+        color:gold;
+      } 
+      @media all and (min-width: 481px) and (max-width: 761px){
+        #main{
+          grid-template-rows:auto;
+          grid-template-columns: repeat(2,1fr);  
+       }        
+     } 
+     @media  all and (min-width: 320px) and (max-width: 480px){
+        #main{  
+          height:max-content;
+        grid-template-rows:auto;
+        grid-template-columns: repeat(1,1fr);  
+      } 
+        } 
+    </style>
+</head>
+<body>
+    <div id="main"> 
+        <div> 
+            <div> 
+              <div><b>Cappucino</b></div>
+              <div id="price"><b>$49</b></div>
+            </div>  
+            <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+        <div> 
+            <div> 
+                <div><b>Cappucino</b></div>
+                <div id="price"><b>$49</b></div>
+              </div>  
+              <p>Usage of Internet become more common because of rapid advance.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SampleGrid</title> 
+    <style>  
+       #container>div:nth-child(1){
+        background-color: grey;   
+        grid-column:1/span 2;
+       } 
+       #container>div:nth-child(2){
+        background-color: grey;  
+        grid-column:3/span 2;
+       }
+       #container>div:nth-child(3){
+        background-color: grey; 
+        
+       }
+       #container>div:nth-child(4){
+        background-color: grey;
+        grid-column:2/span 3;
+       } 
+       #container>div:nth-child(5){
+        background-color: grey;
+        grid-column:1/span 4;
+       }
+
+       #container{
+        display:grid; 
+        grid-template-columns:repeat(4,1fr); 
+        grid-template-rows:repeat(3,50px);  
+        gap:40px;
+       } 
+       #container>div{ 
+        font-size: 20px;    
+        font-family: sans-serif;
+        color:white;
+        padding:9px;
+        width:100%;
+       }
+    </style>
+</head>
+<body>
+    <div id="container"> 
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+    </div>
+</body>
+</html>
